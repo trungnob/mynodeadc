@@ -61,7 +61,7 @@ module.exports = function(RED) {
                         if (N<=1)
                         {
                           // console.log('done');
-                          node.send({payload:[max],topic:"adc/"+pin});
+                          node.send({payload:[max min],topic:"Max Min at adc/"+pin});
                           return;
                         }
                         --N;
