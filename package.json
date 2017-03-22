@@ -1,0 +1,14 @@
+{
+  "name"          : "node-red-contrib-pi-mcp3208",
+  "version"       : "0.0.1",
+  "description"   : "Read ADC MCP3208",
+  "keywords"      : [ "node-red" ],
+  "node-red"      : {
+    "nodes" :{
+      "pimcp3208" : "pimcp3208.js"
+    }
+  },
+  "dependencies"  : {
+    "mcp-spi-adc" : "^0.3.1"
+  }
+}
